@@ -1,50 +1,143 @@
-# Welcome to your Expo app 👋
+# Silah — Graduation Project Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Silah is a React Native / Expo mobile application built as part of a team graduation project.  
+The app is designed to support Alzheimer's patients, families, friends, and caregivers through memory assistance, reminders, AI-powered interaction, and accessible daily tools.
 
-## Get started
+> Note: Backend services were developed as part of the team graduation project. This repository focuses on the frontend/mobile implementation.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Overview
 
-2. Start the app
+Silah provides a mobile experience for different user types, including patients, family members, and friends.  
+The frontend focuses on clean navigation flows, mobile UI screens, API integration, and features that support daily care and memory-related assistance.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Patient, family, and friend user flows
+- Login, register, forgot password, verification, and reset password screens
+- Patient profile
+- Family profile
+- Friend profile
+- Memory upload flow
+- Life story screens
+- Reminders
+- AI chat interface with audio support
+- On-this-day memories
+- Search by memory / face flow
+- Cognitive games:
+  - Memory match
+  - Math challenge
+  - Puzzle
+  - Sequence
+  - Sudoku
+  - Word puzzle
+- Notifications
+- Camera and image picker support
+- Audio support
+- AsyncStorage usage
+- Backend API integration
+- Mobile-first user interface
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧑‍💻 My Role
 
-When you're ready, run:
+My role focused on contributing to the frontend/mobile side of the project, including:
 
-```bash
-npm run reset-project
-```
+- Building and integrating mobile screens
+- Creating user interface components
+- Implementing navigation flows using Expo Router
+- Connecting frontend screens with backend APIs
+- Working on authentication-related screens
+- Building profile, reminder, memory, chat, and game-related UI flows
+- Collaborating with backend and AI team members to connect frontend features with backend services
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🛠️ Tech Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+- React Native
+- Expo
+- Expo Router
+- JavaScript
+- AsyncStorage
+- Expo Camera
+- Expo Image Picker
+- Expo Notifications
+- Expo AV
+- API Integration
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📂 Project Structure
+silah-frontend/
+├── app/
+├── src/
+├── assets/
+├── components/
+├── package.json
+├── app.json
+└── README.md
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🚀 Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/karimelprins/silah-frontend.git
+cd silah-frontend
+
+
+### 2. Install dependencies
+
+npm install
+
+### 3. Configure API URL
+
+Update the API base URL inside:
+
+​
+src/config/ApiConfig.js
+
+Example for local backend:
+export const API_BASE_URL = "http://localhost:8000";
+
+
+For testing on a physical device with Expo Go, replace `localhost` with your local network IP address.
+
+Example:
+export const API_BASE_URL = "http://192.168.x.x:8000";
+### 4. Start the Expo development server
+
+​
+npx expo start -c
+
+Then run the app using Expo Go or an emulator.
+
+---
+
+## ⚠️ Important Note
+
+This repository contains the frontend/mobile implementation only.  
+The backend and AI services were developed as part of the team graduation project and are not included in this repository.
+
+---
+
+## 📌 Project Type
+
+Team Graduation Project — Frontend Contribution
+
+---
+
+## 👤 Author
+
+Karim Ehab  
+Frontend Developer
+
+- Portfolio: https://karim-3d-portfolio.vercel.app/
+- GitHub: https://github.com/karimelprins
+- LinkedIn: https://www.linkedin.com/in/karim-ehab-4a10902a6
+
