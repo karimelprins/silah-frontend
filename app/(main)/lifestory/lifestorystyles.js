@@ -1,0 +1,80 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: "#FDFBFA" },
+  customHeader: {
+    height: 100,
+    backgroundColor: "#4C2A13",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: 20, 
+  },
+  headerTitle: { 
+    fontSize: 24, 
+    fontWeight: "bold", 
+    color: "#FFF", 
+    textAlign: "center" 
+  },
+  descriptionText: {
+    fontSize: 15,
+    color:"#7A4A2E",
+    lineHeight: 22,
+    marginBottom: 15,
+    textAlign: 'left',
+    marginTop:20
+  },
+  scrollContent: { padding: 20, paddingBottom: 120 },
+  card: {
+    backgroundColor: "#FFF",
+    borderRadius: 15,
+    padding: 20,
+    borderWidth: 2,
+    borderColor: "#4C2A13",
+    shadowColor: "#000",
+    shadowOpacity: 0.05,
+    shadowRadius: 10,
+    elevation: 5,
+    marginTop: 10,
+  },
+  label: { fontSize: 14, fontWeight: "bold", color: "#4C2A13", marginBottom: 15 },
+  tagCloud: { flexDirection: "row", flexWrap: "wrap", marginBottom: 20 },
+  tag: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#F4F1ED",
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    marginRight: 8,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: "#4C2A13",
+  },
+  existingTag: { backgroundColor: "#FFF", borderColor: "#E8E4D9" },
+  tagText: { color: "#4C2A13", fontWeight: "600" },
+  existingTagText: { color: "#B4A594" },
+  inputWrapper: {
+    flexDirection: "row",
+    borderWidth: 1,
+    borderColor: "#E8E4D9",
+    borderRadius: 10,
+    alignItems: "center",
+    paddingLeft: 10,
+  },
+  input: { flex: 1, height: 50, color: "#4C2A13" },
+  addButton: {
+    backgroundColor: "#4C2A13",
+    padding: 10,
+    borderTopRightRadius: 9,
+    borderBottomRightRadius: 9,
+  },
+  saveButton: {
+    backgroundColor: "#4C2A13",
+    height: 50,
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 20,
+  },
+  saveText: { color: "#FFF", fontWeight: "bold", fontSize: 16 }
+});
